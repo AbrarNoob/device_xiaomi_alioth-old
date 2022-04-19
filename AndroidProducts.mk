@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_alioth.mk
+    $(LOCAL_DIR)/krypton_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_alioth-user \
-    blaze_alioth-userdebug \
-    blaze_alioth-eng
+    krypton_alioth-user \
+    krypton_alioth-userdebug \
+    krypton_alioth-eng
