@@ -76,10 +76,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     se_nq_extn_client
 
-# NFC
-PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2.vendor
-
 # Force voLTE/voWIFI/viLTE
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.dbg.volte_avail_ovr=1 \
