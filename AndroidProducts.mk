@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/blaze_alioth.mk
+    $(LOCAL_DIR)/voltage_alioth.mk
 
 COMMON_LUNCH_CHOICES := \
-    blaze_alioth-user \
-    blaze_alioth-userdebug \
-    blaze_alioth-eng
+    voltage_alioth-user \
+    voltage_alioth-userdebug \
+    voltage_alioth-eng
