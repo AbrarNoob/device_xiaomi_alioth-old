@@ -14,8 +14,7 @@ $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 #Blaze Stuffs
 TARGET_BOOT_ANIMATION_RES := 1080
 BLAZE_BUILD_TYPE := OFFICIAL
-BLAZE_MAINTAINER := ABRAR
-WITH_GAPPS := true
+BLAZE_MAINTAINER := 𝗔𝗕𝗥𝗔𝗥
 TARGET_USE_PIXEL_CHARGER := true
 
 # Inherit from alioth device
