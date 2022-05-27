@@ -12,7 +12,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, vendor/blaze/config/common_full_phone.mk)
 
 #Blaze Stuffs
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1440
 BLAZE_BUILD_TYPE := OFFICIAL
 BLAZE_MAINTAINER := 𝗔𝗕𝗥𝗔𝗥
 TARGET_USE_PIXEL_CHARGER := true
