@@ -17,9 +17,8 @@ TARGET_SUPPORTS_GOOGLE_RECORDER := true
 
 #Misc
 FLUID_BUILD_TYPE := CARROT
-PRODUCT_PRODUCT_PROPERTIES += \
-  ro.fluid.maintainer=Abrar \
-  ro.fluid.cpu=SM8250
+TARGET_INCLUDE_GAPPS := true
+TARGET_GAPPS_ARCH := arm64
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
