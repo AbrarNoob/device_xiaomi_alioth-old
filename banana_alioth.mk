@@ -14,6 +14,8 @@ $(call inherit-product, vendor/banana/config/common.mk)
 #Banana Stuffs
 BANANA_BUILD_TYPE := OFFICIAL
 TARGET_FACE_UNLOCK_SUPPORTED := true
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    ro.banana.maintainer=𝗔𝗕𝗥𝗔𝗥
 
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
